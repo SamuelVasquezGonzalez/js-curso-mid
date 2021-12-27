@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 5px;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -48,4 +48,17 @@
 
 .comprar:active{
     background-color: rgb(0, 117, 0);
+}
+
+.divdebbuging{
+    background-color: black;
+    padding: 10px;
+}
+
+h2{
+    color: #fff;
+}
+
+p{
+    color: #fff;
 }
