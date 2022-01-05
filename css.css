@@ -115,3 +115,10 @@ form label{
     color: rgb(236, 236, 236);
     text-align: center;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-auto-rows: 50px;
+}
