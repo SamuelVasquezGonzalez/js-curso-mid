@@ -39,3 +39,16 @@ catch(popo){
 }finally{
     console.log("bueno pene");
 }
+
+
+// -------- SENTENCIA throw ----------- //
+
+// la sentencia throw sirve para hacer excepciones, dentro y fuera del try
+
+
+try{
+    throw "gonzalo mama pollas"
+}
+catch(e){
+    console.log("pene")
+}

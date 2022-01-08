@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-notas{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 48%;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.tarjeta-titulo{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.tarjeta-campos{
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notaUno{
+    width: 40%;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid olive;
+    padding: 5px 0 5px 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.notaDos{
+    width: 40%;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid olive;
+    padding: 5px 0 5px 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.tarjeta-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+
+.promedioBoton{
+    width: 30%;
+    padding: 7px 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #b1b1b1;
+}
+
+.promedioBoton:hover{
+    background-color: #838383;
+}
+
+.promedioBoton:active{
+    background-color: #3f3f3f;
+    color: #fff;
+}
+
+.resultado{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 48%;
+    margin-left: 10px; 
+    border: 1px solid black;
+}
+
+.info{ 
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-notasTitulo{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.obtenidaUno{
+    margin-bottom: 15px;    
+}
+
+.obtenidaDos{
+    margin-bottom: 15px;    
+}
+
+.perdiste{
+    background-color: red;
+    padding: 7px;
+    text-align: center;
+}
+
+.ganaste{
+    background-color: green;
+    padding: 7px;
+    text-align: center;
+}
