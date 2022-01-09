@@ -58,6 +58,21 @@
     padding: 5px 0 5px 15px;
     font-size: 18px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.notaTres{
+    width: 40%;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid olive;
+    padding: 5px 0 5px 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
